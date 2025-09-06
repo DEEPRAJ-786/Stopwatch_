@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.stopwatch {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 20px 24px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+.timerDisplay {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.btn {
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  margin: 0 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.start {
+  background: linear-gradient(135deg, #00c853, #64dd17);
+}
+.stop {
+  background: linear-gradient(135deg, #d50000, #ff1744);
+}
+.reset {
+  background: linear-gradient(135deg, #2962ff, #448aff);
+}
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+}
